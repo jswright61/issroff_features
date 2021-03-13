@@ -35,4 +35,4 @@ false
 ```ruby
 $ bundler
 ```
-    There are just a couple of dependencies: pry and method_source
+There are just a couple of dependencies: [pry](https://github.com/pry/pry) and [method_source](https://github.com/banister/method_source)
