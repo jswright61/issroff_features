@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+
+ruby File.read(".ruby-version").strip
+
+gem "pry", "~>0.14.0"
+gem "method_source", "~>1.0.0"

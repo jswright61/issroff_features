@@ -5,10 +5,13 @@ This repo is just a collection of her various method examples and explorations. 
 ```ruby
 $ run_example.rb 1
 outputs:
-# File: 01_string_casecmp?.rb
+# 01_string_casecmp?.rb
+#	String#casecmp?
 
-# String#casecmp?
-#
+# tweet body:
+#	1/ Starting us off, String#casecmp? does a case insensitve comparison of Strings
+
+
 # Instead of
 "aLl DIffeRent CasING".downcase == "all DIFFERENT casing".downcase
 # => true
@@ -23,3 +26,13 @@ true
 # => false
 false
 ```
+## Optional arguments
+* pry leaves you in a pry session after executing the code. The last instantiated Example class is loaded and accessible as "example".
+* all runs all available examples in alphabetical order.
+* you can use "--" before any argument. It's optional, and basically ignored if present. It is allowed just for convention. __Note__ there is no space between the "--" and the argument. So "--pry" not "-- pry".
+# Installing
+ * After cloning the repo, run
+```ruby
+$ bundler
+```
+    There are just a couple of dependencies: pry and method_source
